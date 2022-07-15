@@ -1,12 +1,12 @@
 import { fromJS } from "immutable";
-import { ADD_TODO } from "./action";
+// import { ADD_TODO } from "./action";
 import createReducer from "./createReducer";
 const initialState = fromJS({
   items: {
     id: 1,
-    title: "",
+    title: "default title",
     data: {
-      nestVal: ""
+      nestVal: "default data"
     }
   }
 });
